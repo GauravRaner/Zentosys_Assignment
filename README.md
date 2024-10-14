@@ -53,9 +53,3 @@ Use the "Add Movie" form to add new movies to the database
 View the list of movies on the main page
 Rate movies using the star rating system
 
-Contributing
-If you'd like to contribute to this project, please fork the repository and create a pull request with your proposed changes.
-License
-This project is open source and available under the MIT License.
-Contact
-For any questions or concerns, please open an issue on this repository or contact the project maintainer at [your-email@example.com].
