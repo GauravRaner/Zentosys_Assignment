@@ -26,7 +26,7 @@ Before you begin, make sure you have the following installed:
 
 
 ### Backend Setup
-
+```bash
 **Navigate to the backend folder**
 cd backend
 
@@ -42,7 +42,7 @@ npm start
 The backend server should now be running on http://localhost:8000.
 
 ### Frontend Setup
-
+```bash
 **Navigate to the frontend folder**
 cd frontend
 
