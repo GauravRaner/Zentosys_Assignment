@@ -25,7 +25,7 @@ Before you begin, make sure you have the following installed:
    cd Zentosys_Assignment
 
 
-### Install the required packages
+## Install the required packages
 npm install
 
 # Create a .env file in the backend directory and add your MongoDB URI
