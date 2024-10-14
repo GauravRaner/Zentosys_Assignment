@@ -26,6 +26,7 @@ Before you begin, make sure you have the following installed:
 
 
 ### Backend Setup
+```bash
 **Navigate to the backend folder**
 cd backend
 
