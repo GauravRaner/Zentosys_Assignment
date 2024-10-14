@@ -1,60 +1,64 @@
-# Movie Rating Application
-
+Movie Rating Application
 A full-stack movie rating application built using the MERN stack (MongoDB, Express, React, and Node.js) where users can add movies, view a list of movies, and rate them.
+Features
 
-## Features
+Movie Listing Page: View a list of all movies, including title, description, release year, and average rating.
+Add Movie: A form for adding a new movie with fields for title, description, year, director, and genre.
+Rating System: Rate movies from 1 to 5 stars, with real-time updates to the average rating.
 
-- **Movie Listing Page**: View a list of all movies, including title, description, release year, and average rating.
-- **Add Movie**: A form for adding a new movie with fields for title, description, year, director, and genre.
-- **Rating**: Rate a movie from 1 to 5 stars, with real-time updates to the average rating.
+Technologies Used
 
-## Getting Started
+Frontend: React, Axios, Tailwind CSS
+Backend: Node.js, Express.js
+Database: MongoDB with Mongoose
 
-### Prerequisites
+Prerequisites
+Before you begin, ensure you have the following installed:
 
-Before you begin, make sure you have the following installed:
+Node.js (version 14.x or above)
+MongoDB (local instance or cloud-based service)
 
-- Node.js (version 14.x or above)
-- A MongoDB instance (Local)
+Installation
 
-### Installation
+Clone the Repository
+bashCopygit clone https://github.com/GauravRaner/Zentosys_Assignment.git
+cd Zentosys_Assignment
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/GauravRaner/Zentosys_Assignment.git
-   cd Zentosys_Assignment
-
-
-### Backend Setup
-```bash
-**Navigate to the backend folder**
+Backend Setup
+bashCopy# Navigate to the backend folder
 cd backend
 
-**Install the required packages**
+# Install the required packages
 npm install
 
-**Create a .env file in the backend directory and add your MongoDB URI**
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/MovieApp?retryWrites=true&w=majority
-PORT=8000
+# Create a .env file in the backend directory and add your MongoDB URI
+echo "MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/MovieApp?retryWrites=true&w=majority" > .env
+echo "PORT=8000" >> .env
 
-**Start Backend Server**
+# Start the backend server
 npm start
 The backend server should now be running on http://localhost:8000.
+Frontend Setup
+bashCopy# Navigate to the frontend folder
+cd ../frontend
 
-### Frontend Setup
-```bash
-**Navigate to the frontend folder**
-cd frontend
-
-**Install the required packages**
+# Install the required packages
 npm install
 
-**Start Frontend Server**
+# Start the frontend server
 npm run dev
-
 The frontend server should now be running on http://localhost:5173.
 
-## Technologies Used
--**Frontend**: React, Axios, Tailwind CSS
--**Backend**: Node.js, Express.js, MongoDB
--**Database**: MongoDB with Mongoose
+Usage
+
+Open your web browser and navigate to http://localhost:5173
+Use the "Add Movie" form to add new movies to the database
+View the list of movies on the main page
+Rate movies using the star rating system
+
+Contributing
+If you'd like to contribute to this project, please fork the repository and create a pull request with your proposed changes.
+License
+This project is open source and available under the MIT License.
+Contact
+For any questions or concerns, please open an issue on this repository or contact the project maintainer at [your-email@example.com].
