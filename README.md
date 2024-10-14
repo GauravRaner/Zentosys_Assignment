@@ -28,35 +28,28 @@ Before you begin, make sure you have the following installed:
 ### Backend Setup
 
 **Navigate to the backend folder**
-```bash 
 cd backend
 
 **Install the required packages**
-```bash
 npm install
 
 **Create a .env file in the backend directory and add your MongoDB URI**
-```bash
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/MovieApp?retryWrites=true&w=majority
 PORT=8000
 
 **Start Backend Server**
-```bash
 npm start
 The backend server should now be running on http://localhost:8000.
 
-**Frontend Setup**
+### Frontend Setup
 
 **Navigate to the frontend folder**
-```bash
 cd frontend
 
 **Install the required packages**
-```bash
 npm install
 
 **Start Frontend Server**
-```bash
 npm run dev
 
 The frontend server should now be running on http://localhost:5173.
