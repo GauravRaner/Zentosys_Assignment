@@ -15,7 +15,7 @@ A full-stack movie rating application built using the MERN stack (MongoDB, Expre
 Before you begin, make sure you have the following installed:
 
 - Node.js (version 14.x or above)
-- A MongoDB instance (local or hosted on MongoDB Atlas)
+- A MongoDB instance (local )
 
 ### Installation
 
@@ -25,7 +25,7 @@ Before you begin, make sure you have the following installed:
    cd Zentosys_Assignment
 
 
-# Install the required packages
+### Install the required packages
 npm install
 
 # Create a .env file in the backend directory and add your MongoDB URI
